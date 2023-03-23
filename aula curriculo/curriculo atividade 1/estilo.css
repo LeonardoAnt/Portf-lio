@@ -1,0 +1,35 @@
+body{
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+.topicoprincipal{
+
+    border: 2px;
+    border-color: rgb(179, 178, 178);
+    color: rgb(184, 179, 179);
+    background-color: black;
+    font-size: 25px;
+    font-family: georgia;
+    border-style: solid;
+    padding: 5px;
+    border-right: 0;
+}
+.topico{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+span{
+    font-weight: bold;
+}
+.p{
+    line-height: 2px;
+}
+.p1{
+    line: height 0%;;
+    background-color: rgb(204, 202, 202);
+    padding: 5px;
+}

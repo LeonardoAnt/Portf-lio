@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #212226;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding-top: 180px;
+    box-sizing: border-box; 
+
+}
+header{
+    text-align: left;
+    padding-bottom: 200px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    
+}
+h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: normal;
+    
+}
+.titulopersonalizado{
+    color: #15CDCB;
+   
+}
+.texto{
+    color: lightgrey;
+    line-height: 30px;
+    font-weight: bold;
+}
+.btncontato{
+    margin: 30px;
+    margin-left: 0;
+    background-color:rgb(64, 132, 221) ;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    border: 1px rgb(64, 132, 221) solid;
+    border-radius: 1rem;
+}
+.btncontato:hover{
+    background-color: #212226;
+}
+.menu{ 
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;  
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+    background-color:#212226;
+}
+.menu_interno{
+    width: auto;
+    justify-content: center;
+    box-sizing: border-box;
+    float: left;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around; 
+     
+}
+.menu li{
+    display: flex;
+    padding-right: 150px;
+    box-sizing: border-box;
+}
+.imagem_logo{
+  width: auto;
+}
+.menu a{
+    text-decoration: none;
+    color: #15CDCB;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.corpo_sobre{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 200px;
+}
+.texto_corpo{
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 200px;
+}
+.foto_rambo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.img_rambo{
+    width: 70%;
+}
+.corpo_servicos{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.titulo_servicos{
+    color: #5280E2;
+    font-size: 50px;
+    width: 100%;
+}
+.container_blocos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.bloco_servicos{
+    width: 400px;
+    height: 350px;
+    background-color: #333335;
+    margin: 50px;
+    border: 1px #5280E2 solid;
+    border-radius: 1rem;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+h2{
+    font-weight: normal;
+}
+.corpo_portfolio{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-image: url(imagens/portfolio-bg.png);
+    background-size:cover;
+    padding: 0;
+
+}
+.titulo_portfolio{
+    font-size: 50px;
+    width: 100%;
+    color: #15CDCB;
+}
+.container_portfolio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.bloco_portfolio{
+    width: 400px;
+    height: 500px;
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.014);
+    border: 1px white solid;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-top: 30px;
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.img_portfolio{
+    width: 300px;
+    height: 200px;
+    padding-left: 20px;
+}
+.btn_port{
+    color: #15CDCB;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 15px 10px 15px;
+    border: 2px #15CDCB solid;
+    border-radius: 1rem;
+    font-size: 15px;
+    margin: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.btn_port:hover{
+    background-color:#15cdca44;
+}
+@media(max-width: 700px){
+    .container{
+        width: auto;
+       
+        margin: 0;
+    }
+    .header{
+        text-align: center;
+        justify-content: center;
+        width: auto;
+        box-sizing: border-box;
+        
+    }
+    .menu{
+      flex-direction: column;
+      justify-content: center;
+    
+        
+    }
+    .imagem_logo{
+        width: auto;
+        text-align: center;
+       
+    }
+    .menu ul{
+       
+        width: auto;
+       justify-content: left;
+       
+    }
+    .menu li{
+        padding-right: 10px;
+        padding-left: 0;
+        font-size: 17px;
+    }
+    .container_portfolio{
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .container_blocos{
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .corpo_sobre{
+        flex-direction: column;
+        padding: 15px;
+        box-sizing: border-box;
+        width: auto;
+       
+    }
+    .corpo_servicos{
+        width: auto;
+    }
+    .bloco_portfolio{
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .bloco_servicos{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .foto_rambo{
+        box-sizing: border-box;
+        
+        width: 100%;
+    }
+    .texto_corpo{
+        padding-left: 30px;
+        background-color: #212226;
+        width: 100%;
+    }
+}

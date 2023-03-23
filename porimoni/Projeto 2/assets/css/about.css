@@ -1,0 +1,98 @@
+table{
+    width: 1600;
+    color: rgb(243, 11, 61);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    margin-left: 12%;
+}
+
+.cabecalho{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    width: 700px;
+    text-align: left;
+    float: left;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.a1{
+    color: red;
+    width: 50px;
+    text-align: left;
+    font-weight: bold;
+    float: left;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.btn{
+   
+    background-color: black;
+    width: 10rem;
+    height: 3rem;
+    border: 1%;
+    border-color: rgb(243, 11, 61);
+    color: white;
+    border-radius: 2rem;
+}
+
+.btn:hover{
+    background-color: rgb(243, 11, 61);
+    color:white;
+}
+
+.tdabout{
+    padding-left: 30px;
+    text-align: left;
+    color: white;
+}
+
+.span1{
+    color:rgb(243, 11, 61) ;
+}
+
+.imagem{
+    width: 600px;
+    height: 600px;
+    padding-top: 20px;
+}
+
+.div1{
+    padding-bottom: 15px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.lorem{
+    color: rgb(156, 161, 167);
+}
+
+.div2{
+    padding-top: 20px;
+    padding-left: 200px;
+    color: rgb(156, 161, 167);
+}
+
+.divb{
+    padding-top: 20px;
+}
+
+
+.correcaotd{
+   text-align: right;
+   padding-right: 20px;
+}
+
+h2{
+    padding-top: 15px;}
+

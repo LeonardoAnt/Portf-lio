@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    margin-left: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.cabecalho{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    width: 700px;
+    text-align: left;
+    float: left;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a1{
+    color: red;
+    width: 50px;
+    text-align: left;
+    font-weight: bold;
+    float: left;
+    padding: 30px;
+    font-family: Arial;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 1200px;
+    padding-left: 90px;
+}
+
+.vermelho{
+    color: red;
+}
+
+.h2{
+    color: rgb(152, 162, 172);
+    text-align: center;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.quadros{
+    margin-left: 150px;
+    margin-right: 200px;
+    color: rgb(152, 162, 172);
+    font-size: 15px;
+}
+
+.div{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin: 30px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.titulos_quadros{
+    font-size: 20px;
+    color: white;
+}
